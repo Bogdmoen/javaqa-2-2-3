@@ -3,16 +3,16 @@ public class Main {
 
         CreditPaymentService service = new CreditPaymentService();
 
-        long one_year = service.calculate(1000000, 1);
-        System.out.println(one_year);
+        long oneYear = service.calculate(1000000, 1);
+        System.out.println(oneYear);
 
 
-        long two_years = service.calculate(1000000, 2);
-        System.out.println(two_years);
+        long twoYears = service.calculate(1000000, 2);
+        System.out.println(twoYears);
 
 
-        long three_years = service.calculate(1000000, 3);
-        System.out.println(three_years);
+        long threeYears = service.calculate(1000000, 3);
+        System.out.println(threeYears);
 
 
     }
